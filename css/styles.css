@@ -27,14 +27,13 @@ img{
     width: 1158px;
     padding: 0 15px;
     display: flex;
-    justify-content:center;
+    justify-content:space-around;
     align-items:center;
     flex-wrap: wrap;
 }
 
 .navbar{
     display: flex;
-    
     align-items: center;
 }
 
