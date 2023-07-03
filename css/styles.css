@@ -56,7 +56,7 @@ body{
 .title-section{
     background-color:var(--secondary-color);
 }
-.h-title{
+.hero-title{
     color: #ffffff;
     font-size: 56px;
     line-height: 1.07;
@@ -142,7 +142,17 @@ body{
     background-color:var(--secondary-color);
 
 }
-
+.footer-logo{
+    ont-family:'Raleway', sans-serif;
+    font-weight: 800;
+    color:var(--textcolor);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-size: 18px;
+    line-height: 21px;
+    line-height: 1.17;
+}
+}
 .span-logo-footer{
     color:#f4f4fd;
 }
