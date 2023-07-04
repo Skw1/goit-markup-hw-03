@@ -339,7 +339,9 @@ img{
     background-color:var(--secondary-color);
     padding: 100px 0;
 }
-
+.footer .container{
+    flex-direction: column;
+}
 .footer-logo{
     display: inline-block;
     margin-bottom: 16px;
