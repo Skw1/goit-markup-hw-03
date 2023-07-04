@@ -15,7 +15,10 @@ body{
 }
 
 img{
+    width: 100%;
+    height: auto;
     display: block;
+    
 }
 
 .header{
@@ -27,6 +30,7 @@ img{
     width: 1158px;
     padding: 0 15px;
     display: flex;
+    flex-direction: column;
 }
 .header .container{
     flex-direction: row;
@@ -40,8 +44,8 @@ img{
 
 .nav-list{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
     gap: 40px;
 }
 
@@ -50,7 +54,6 @@ img{
 }
 
 .link{
-    display: inline-block;
     color:var(--secondary-color);
     font-weight: 500;
     line-height: 24px;
@@ -111,11 +114,7 @@ img{
     padding: 188px 0;
     background-color:var(--secondary-color);
 }
-.hero-section .container{
-    flex-direction: column;
-    
 
-}
 .hero-title{
     margin:0 auto;  
     color: #ffffff;
@@ -191,9 +190,7 @@ img{
 .what-we-do-section{
     padding-bottom: 120px; 
 }
-.what-we-do-section .container{
-    flex-direction: column;
-}
+
 .what-we-do-list{
     display: flex;
     gap: 24px;
@@ -222,9 +219,7 @@ img{
     text-align: center;
     text-transform: capitalize;
 }
-.team-section .container{
-    flex-direction: column;
-}
+
 .team-section-title{
     color:var(--secondary-color);
     text-transform: capitalize;
@@ -274,11 +269,8 @@ img{
     padding-top: 96px; 
     padding-bottom: 120px;
 }
-.main-section .container{
-    flex-wrap: wrap;
-    justify-content: center;
 
-}
+
 .list-buttons{
     display: flex;
     justify-content: center;
@@ -309,16 +301,21 @@ img{
 
 .list-img{
     display:flex;
-    
+    flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;   
 }
 
-.list-img-point {
-    width: calc((100% - 48px) / 3); 
+.img-point{
+    width: calc((100% - 48px) / 3);
 }
 
 .list-img-title{
+    font-family: "Roboto", sans-serif;  ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.4px;
     margin-bottom: 8px;
 }
 
@@ -333,11 +330,8 @@ img{
     padding: 100px 0;
 }
 
-.footer .container{
-    flex-direction: column;
-}
-
-.footer-logo{
+.footer .footer-logo{
+    display: inline-block;
     margin-bottom: 16px;
     font-family:'Raleway', sans-serif;
     font-weight: 800;
