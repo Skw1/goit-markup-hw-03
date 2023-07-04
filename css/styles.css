@@ -329,7 +329,7 @@ img{
     background-color:var(--secondary-color);
     padding: 100px 0;
 }
-.footer a {
+.footer .container > a{
     display: inline-block;
     margin-bottom: 16px;
 }
