@@ -17,6 +17,14 @@ body{
 img{
     display: block;
 }
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
 
 .header{
     border-bottom: 1px solid #e7e9fc;
@@ -126,7 +134,7 @@ img{
 .title-button{
     margin:0 auto;
     margin-top: 48px;;
-    display: block;
+    
     min-width: 169px;
     height: 56px;
     font-family: "Roboto", sans-serif;
@@ -309,6 +317,7 @@ img{
 .list-img{
     display:flex;
     flex-wrap: wrap;
+    padding:0;
     column-gap: 24px;
     row-gap: 48px;   
 }
@@ -339,6 +348,7 @@ img{
 .footer .container{
     flex-direction: column;
 }
+
 .footer-logo{
     display: inline-block;
     margin-bottom: 16px;
