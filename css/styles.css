@@ -40,12 +40,12 @@ img{
 .navbar{
     display: flex;
     align-items: center;
+    justify-content: flex-start;
 }
 
 .nav-list{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
     gap: 40px;
 }
 
@@ -114,7 +114,9 @@ img{
     padding: 188px 0;
     background-color:var(--secondary-color);
 }
-
+.hero-section .container{
+    flex-direction: column;
+}
 .hero-title{
     margin:0 auto;  
     color: #ffffff;
@@ -147,7 +149,9 @@ img{
 .benefits-section{
     padding: 120px 0;
 }
-
+.benefits-section .container{
+    flex-direction: column;
+}
 .visually-hidden{
     position: absolute;
     width: 1px;
@@ -190,7 +194,9 @@ img{
 .what-we-do-section{
     padding-bottom: 120px; 
 }
-
+.what-we-do-section .container{
+    flex-direction: column;
+}
 .what-we-do-list{
     display: flex;
     gap: 24px;
@@ -219,7 +225,9 @@ img{
     text-align: center;
     text-transform: capitalize;
 }
-
+.team-section  .container{
+    flex-direction: column;
+}
 .team-section-title{
     color:var(--secondary-color);
     text-transform: capitalize;
@@ -270,7 +278,9 @@ img{
     padding-bottom: 120px;
 }
 
-
+.main-section .container{
+    flex-direction: column;
+}
 .list-buttons{
     display: flex;
     justify-content: center;
