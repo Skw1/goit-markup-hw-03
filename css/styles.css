@@ -22,7 +22,7 @@ h2,
 h3,
 p,
 ul {
-  margin: 0;
+  
   padding: 0;
 }
 
@@ -134,7 +134,7 @@ ul {
 .title-button{
     margin:0 auto;
     margin-top: 48px;;
-    
+    display: block;
     min-width: 169px;
     height: 56px;
     font-family: "Roboto", sans-serif;
@@ -348,7 +348,6 @@ ul {
 .footer .container{
     flex-direction: column;
 }
-
 .footer-logo{
     display: inline-block;
     margin-bottom: 16px;
