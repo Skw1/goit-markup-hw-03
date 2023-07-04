@@ -329,11 +329,10 @@ img{
     background-color:var(--secondary-color);
     padding: 100px 0;
 }
-.footer .container > a{
+
+.footer-logo{
     display: inline-block;
     margin-bottom: 16px;
-}
-.footer-logo{
     font-family:'Raleway', sans-serif;
     font-weight: 800;
     color:var(--textcolor);
