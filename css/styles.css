@@ -311,7 +311,7 @@ img{
 }
 
 .list-img-title{
-    font-family: "Roboto", sans-serif;  ;
+    font-family: "Roboto", sans-serif;  
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -329,10 +329,11 @@ img{
     background-color:var(--secondary-color);
     padding: 100px 0;
 }
-
-.footer .footer-logo{
+.footer a {
     display: inline-block;
     margin-bottom: 16px;
+}
+.footer-logo{
     font-family:'Raleway', sans-serif;
     font-weight: 800;
     color:var(--textcolor);
