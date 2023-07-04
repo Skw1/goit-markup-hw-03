@@ -306,7 +306,7 @@ img{
     row-gap: 48px;   
 }
 
-.main-list-point{
+.img-point{
     width: calc((100% - 48px) / 3);
 }
 
