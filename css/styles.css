@@ -249,8 +249,6 @@ ul {
 .team-list{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
     gap: 24px;
 }
 
@@ -321,7 +319,7 @@ ul {
 }
 
 .list-img{
-   
+    width: 1128px;
     display:flex;
     flex-wrap: wrap;
     column-gap: 24px;
