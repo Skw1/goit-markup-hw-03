@@ -80,7 +80,6 @@ ul {
     text-transform: uppercase;
     letter-spacing: 0.03em;
     font-size: 18px;
-    line-height: 21px;
     line-height: 1.17;
 }
 
@@ -355,11 +354,8 @@ ul {
     flex-direction: column;
 }
 
-.footer-logo.link {
-    display: inline-block;
-    }
-
 .footer-logo{
+    display: inline-block;
     margin-bottom: 16px;
     font-family:'Raleway', sans-serif;
     font-weight: 800;
