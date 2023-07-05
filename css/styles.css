@@ -26,6 +26,7 @@ ul {
   padding: 0;
 }
 
+
 .header{
     border-bottom: 1px solid #e7e9fc;
 }
@@ -72,7 +73,6 @@ ul {
 }
 
 .logo{
-    display: inline-block;
     margin-right: 76px;
     font-family:'Raleway', sans-serif;
     font-weight: 800;
@@ -356,7 +356,7 @@ ul {
 .footer .container{
     flex-direction: column;
 }
-.footer .logo{
+.footer .container .logo{
     display: inline-block;
     margin-bottom: 16px;
 }
