@@ -36,6 +36,8 @@ ul {
     padding: 0 15px;
     display: flex;
     
+    
+    
 }
 .header .container{
     flex-direction: row;
@@ -284,6 +286,7 @@ ul {
 }
 
 .main-section .container{
+    align-items: center;
     flex-direction: column;
 }
 .list-buttons{
@@ -315,9 +318,9 @@ ul {
 }
 
 .list-img{
+    width: 1128px;
     display:flex;
     flex-wrap: wrap;
-    padding:0;
     column-gap: 24px;
     row-gap: 48px;   
 }
@@ -325,7 +328,9 @@ ul {
 .img-point{
     width: calc((100% - 48px) / 3);
 }
-
+.img-point:nth-child(3n){
+    margin-right: 0;
+}
 .list-img-title{
     font-family: "Roboto", sans-serif;  
     font-style: normal;
@@ -345,11 +350,16 @@ ul {
     background-color:var(--secondary-color);
     padding: 100px 0;
 }
+
 .footer .container{
     flex-direction: column;
 }
-.footer-logo{
+
+.footer-logo.link {
     display: inline-block;
+    }
+
+.footer-logo{
     margin-bottom: 16px;
     font-family:'Raleway', sans-serif;
     font-weight: 800;
