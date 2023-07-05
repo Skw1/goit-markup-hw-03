@@ -32,7 +32,7 @@ ul {
 
 .container{
     margin: 0 auto;
-    width: 1158px;
+    width: 1128px;
     padding: 0 15px;
     display: flex;
     
@@ -179,6 +179,9 @@ ul {
 .benefits-point{
     width: calc((100% - 72px) / 4); 
 }
+.benefits-point:nth-child(4){
+    margin-right: 0;
+}
 
 .benefits-title{
     margin-bottom: 8px; 
@@ -317,7 +320,6 @@ ul {
 }
 
 .list-img{
-    width: 1128px;
     display:flex;
     flex-wrap: wrap;
     column-gap: 24px;
@@ -353,10 +355,11 @@ ul {
 .footer .container{
     flex-direction: column;
 }
-
-.footer-logo{
+.footer .footer-logo{
     display: inline-block;
     margin-bottom: 16px;
+}
+.footer-logo{
     font-family:'Raleway', sans-serif;
     font-weight: 800;
     color:var(--textcolor);
