@@ -26,6 +26,10 @@ ul {
   padding: 0;
 }
 
+.footer .logo{
+    display: inline-block;
+    margin-bottom: 16px;
+}
 
 .header{
     border-bottom: 1px solid #e7e9fc;
@@ -355,10 +359,6 @@ ul {
 
 .footer .container{
     flex-direction: column;
-}
-.footer .logo{
-    display: inline-block;
-    margin-bottom: 16px;
 }
 
 .span-logo-footer{
