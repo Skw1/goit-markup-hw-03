@@ -359,6 +359,7 @@ ul {
     flex-direction: column;
 }
 .footer.logo{
+    margin:0;
     display: inline-block;
     margin-bottom: 16px;
 }
