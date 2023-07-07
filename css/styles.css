@@ -358,8 +358,8 @@ ul {
 .footer .container{
     flex-direction: column;
 }
-.footer .logo{
-    width:115px;
+.footer.logo.link{
+    
     display: inline-block;
     margin-bottom: 16px;
 }
