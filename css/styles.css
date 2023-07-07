@@ -22,7 +22,7 @@ h2,
 h3,
 p,
 ul {
-  
+   
   padding: 0;
 }
 
@@ -359,7 +359,8 @@ ul {
     flex-direction: column;
 }
 .footer .logo{
-    
+    width:115px;
+    display: inline-block;
     margin-bottom: 16px;
 }
 .span-logo-footer{
