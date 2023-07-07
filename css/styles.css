@@ -358,7 +358,7 @@ ul {
 .footer .container{
     flex-direction: column;
 }
-.footer.logo{
+.footer .logo{
     margin:0;
     display: inline-block;
     margin-bottom: 16px;
