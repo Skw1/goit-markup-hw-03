@@ -358,10 +358,20 @@ ul {
     flex-direction: column;
 }
 .footer-logo{
-    margin:0;
+    font-family:'Raleway', sans-serif;
+    font-weight: 800;
+    color:var(--textcolor);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-size: 18px;
+    line-height: 21px;
+    line-height: 1.17;
+}
+.footer-logo {
     display: inline-block;
     margin-bottom: 16px;
 }
+
 .span-logo-footer{
     color:#f4f4fd;
 }
