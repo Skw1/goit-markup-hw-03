@@ -354,9 +354,7 @@ ul {
     padding: 100px 0;
 }
 
-.footer .container{
-    flex-direction: column;
-}
+
 .footer-logo{
     font-family:'Raleway', sans-serif;
     font-weight: 800;
