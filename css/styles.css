@@ -22,7 +22,6 @@ h2,
 h3,
 p,
 ul {
-
   padding: 0;
 }
 
@@ -350,6 +349,7 @@ ul {
 }
 
 .footer{
+    
     background-color:var(--secondary-color);
     padding: 100px 0;
 }
