@@ -352,32 +352,26 @@ ul {
     background-color:var(--secondary-color);
     padding: 100px 0;
 }
-.footer .container{
-    flex-direction: column;
-}
-.footer-logo{
-    font-family:'Raleway', sans-serif;
-    font-weight: 800;
-    color:var(--textcolor);
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    font-size: 18px;
-    line-height: 21px;
-    
-}
 
-.footer-logo.link{
+  .footer-logo {
     margin-bottom: 16px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--textcolor);
     display: inline-block;
-}
+  }
 
 .span-logo-footer{
     color:#f4f4fd;
 }
 .footer-paragraph{
-    max-width: 264px;
-    line-height: 1.5;
+    line-height: 1.5; 
     color:var(--primary-white-color);
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 
