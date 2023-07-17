@@ -22,6 +22,7 @@ h2,
 h3,
 p,
 ul {
+  margin:0;
   padding: 0;
 }
 
@@ -39,7 +40,8 @@ ul {
 }
 
 .header .container{
-    align-items:space;
+    height: 71px;
+    align-items: center;
     justify-content:space-between;
 }
 
@@ -59,6 +61,7 @@ ul {
 .nav-link{
     padding: 24px 0;
 }
+
 
 .link{
     color:var(--secondary-color);
@@ -352,17 +355,21 @@ ul {
     background-color:var(--secondary-color);
     padding: 100px 0;
 }
-
-  .footer-logo {
+.footer .container{
+    flex-direction: column;
+}
+.footer-logo.link{
+    display: inline-block;
     margin-bottom: 16px;
+}
+  .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--textcolor);
-    display: inline-block;
+    color: var(--textcolor); 
   }
 
 .span-logo-footer{
