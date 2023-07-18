@@ -358,6 +358,10 @@ ul {
     background-color:var(--secondary-color);
 }
 
+.footer .container{
+    flex-direction: column;
+}
+
 .footer-logo{
     font-family:'Raleway', sans-serif;
     font-weight: 800;
@@ -368,7 +372,7 @@ ul {
     line-height: 21px;
     line-height: 1.17;
 }
-.footer-logo {
+.footer-logo.link {
     display: inline-block;
     margin-bottom: 16px;
 }
