@@ -251,6 +251,7 @@ ul {
     margin-bottom: 72px;
 }
 .team-list{
+    width: 1128px;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
