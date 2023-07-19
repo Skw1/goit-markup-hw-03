@@ -293,6 +293,7 @@ ul {
 }
 .main-container{
     display:flex;
+    flex-direction: column;
 }
 
 .list-buttons{
@@ -358,6 +359,7 @@ ul {
 }
 .footer .container{
     display: flex;
+    flex-direction: column;
 }
 
 .footer-logo{
